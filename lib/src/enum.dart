@@ -9,11 +9,11 @@ enum PageTransitionType {
   /// Left to right animation
   leftToRight,
 
-  /// Top the bottom animation
+  /// Top to bottom animation
 
   topToBottom,
 
-  /// bottom the top animation
+  /// bottom to top animation
 
   bottomToTop,
 
@@ -44,4 +44,12 @@ enum PageTransitionType {
   /// Right to left slide as if joined
 
   rightToLeftJoined,
+
+  /// Pop the current screen left to right
+
+  leftToRightPop,
+
+  /// Pop the current screen right to left
+
+  rightToLeftPop,
 }
